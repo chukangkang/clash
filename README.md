@@ -3,7 +3,7 @@
 ### 下载项目
 
 ```
-git clone https://gitee.com/chukk8/linux-c.git
+git clone https://github.com/chukangkang/clash.git
 cd linux-c 
 chmod +x abc
 ```

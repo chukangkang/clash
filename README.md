@@ -4,7 +4,7 @@
 
 ```
 git clone https://github.com/chukangkang/clash.git
-cd linux-c 
+cd clash 
 chmod +x abc
 ```
 

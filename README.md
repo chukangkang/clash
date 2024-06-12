@@ -13,8 +13,8 @@ chmod +x abc
 ### 下载mmdb
 
 ```
-rm -rf ~/.config/XXX && mkdir -p ~/.config/XXX
-cp Country.mmdb ~/.config/XXXX/
+rm -rf ~/.config/clash && mkdir -p ~/.config/clash
+cp Country.mmdb ~/.config/clash/
 
 ```
 
@@ -28,7 +28,19 @@ cp Country.mmdb ~/.config/XXXX/
 
 >默认端口： 443  按需修改
 >
->默认域名：hk.chukk.cc 全局替换
+>默认域名：域名 全局替换
 >
 >默认密码： 123456 按需修改
+
+### 代理设置
+
+```
+#全局代理
+#export http_proxy="http://127.0.0.1:7890"
+export https_proxy="http://127.0.0.1:7890"
+
+#取消代理
+unset http_proxy
+unset https_proxy
+```
 

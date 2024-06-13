@@ -94,9 +94,9 @@ proxies:
 # Trojan
 - name: "香港"
   type: trojan
-  server: hk.chukk.cc
-  port: 46788
-  password: chukkpass
+  server: 域名
+  port: 端口
+  password: 密码
   udp: true
   sni:  # 填写伪装域名
   alpn:
